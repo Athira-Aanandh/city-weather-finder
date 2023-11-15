@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Document</title>
+</head>
+<body>
+    <section>
+        <div class="container">
+            
+            <div class="search-container">
+                <input type="text" name="city-name" id="city-name"> 
+            <img src="./assets/search-icon.jpg" alt="" onclick="getWeatherDetails()">
+            </div><p class="error-message" id="error-message"></p>
+            <div class="weather-container">
+                <img src="./assets/sum-wether.png" alt="">
+                <h1 id="temp">22 °C</h1>
+                <h2 class="city-name" id="citycontainer">Bengaluru</h2>
+            </div>
+            <div class="weather-discription">
+                <img src="./assets/wave.png" alt="">
+                <div><h3 id="humidity-container">53% </h3>
+                    <h3>Humidity</h3></div>
+                <img src="./assets/wind-removebg-preview.png" alt="">
+                <div><h3 id="wind-container">5.66 km/h </h3>
+                <h3>Wind speed</h3></div>
+            </div>
+
+
+        </div>
+<script src="main.js"></script>
+    </section>
+</body>
+</html>
